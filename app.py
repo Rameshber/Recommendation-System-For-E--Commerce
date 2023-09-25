@@ -4,7 +4,7 @@ from main import get_recommendations_with_details
 from sklearn.preprocessing import LabelEncoder  # Assuming you need to import LabelEncoder
 
 # GENERAL SETTINGS
-PAGE_TITLE = "Ecommerce Demo"
+PAGE_TITLE = " Recommendation System For E-Commerce "
 PAGE_ICON = ":wave:"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -61,7 +61,7 @@ def main():
     Main function where you can select the category and a product.
     By which you can get the recommendations
     """
-    st.title('Ecommerce Demo')
+    st.title(' Recommendation System For E-Commerce ')
 
     # Load the dataset
     data = load_data()
